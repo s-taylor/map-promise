@@ -5,9 +5,17 @@
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha -R spec --recursive"
-  },
+  },  
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/s-taylor/promiseMap"
+  },  
+  "keywords": [
+    "promise",
+    "map"
+  ],
   "author": "Simon Taylor",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "q": "^1.2.0"
   },
