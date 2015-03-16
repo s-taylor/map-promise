@@ -1,6 +1,6 @@
 {
   "name": "promiseMap",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "a map function using promises",
   "main": "index.js",
   "scripts": {
