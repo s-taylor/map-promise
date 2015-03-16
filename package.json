@@ -1,6 +1,6 @@
 {
-  "name": "promiseMap",
-  "version": "0.1.0",
+  "name": "map-promise",
+  "version": "0.1.1",
   "description": "a map function using promises",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },  
   "repository": {
     "type": "git",
-    "url": "git://github.com/s-taylor/promiseMap"
+    "url": "git://github.com/s-taylor/map-promise"
   },  
   "keywords": [
     "promise",
