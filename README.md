@@ -1,14 +1,20 @@
-This module is intended to replicate the functionality provide by an async map function but instead uses promises.
+This module is intended to replicate the functionality provide by an async map function but uses a promise to handle the map completion and returning results.
 
-The promsieMap function takes two inputs.
+The promiseMap function takes two inputs.
+
 * An array to "map" over
-* A function to apply to each element in the array, first input is the array value, second input is a callback function which should be invoked upon the functions completion
+* A function to apply to each element in the array, 
+	* first input = array value
+	* second input is a callback function (which should be invoked upon the functions completion)
 
 If the promiseMap is successful, it will resolve and the results are obtainable as an array (within .then)
+
 If the promiseMap fails, it will reject and the error will be passed along (to .then)
 
 Usage Example:-
-(note: the uppercase function does not need a callback as it is synchronous, this is just to demonstrate)
+
+(NOTE: the uppercase function does not need a callback as it is synchronous, this is just to demonstrate)
+
 ```
 var mapPromise = require('map-promise');
 
