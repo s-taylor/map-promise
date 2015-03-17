@@ -16,7 +16,11 @@ var map = function(array, fn) {
 	}
 
 	for (var i = 0; i < length; i++) {
-		fn(array[i], done);
+		try {
+			fn(array[i], done);
+		} catch (err) {
+			deferred.reject(err)
+		}
 	}
 
 	return deferred.promise;
